@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap')
+
+
+.main
+{
+    border: 2px solid red;
+    padding: 12px;
+    height: 200px;
+    overflow: auto;
+}
+.bio{
+    border: 2px solid blue;
+    margin-top: 100px;
+ 
+    
+}
+.bio li{
+    list-style: none;
+    font-size: 30px;
+}
+.bio h1{
+    color: red;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+@media screen and (max-width:400px){
+    p{
+    
+        color: red;
+        font-size: 50px;   
+    }
+}
+
